@@ -9,21 +9,23 @@
 <body>
 	<header>
 		<div class="col-xs-3">
-			<div class="circle">
- 				 <br />
- 				 words
-				 <br />
-				 to live
-				 <br />
- 				 by
-			</div>
+			<%= link_to root_path, :class => 'logo' do %>
+				<div class="circle">
+	 				 <br />
+	 				 words
+					 <br />
+					 to live
+					 <br />
+	 				 by
+				</div>
+			<% end %>
 
 		</div>
 		<div class="col-xs-4 slogan">
 			Splurting out unsolicited advice about life since 2015
 		</div>
 		<div class="col-xs-5 links">
-			<%= link_to "Contribute", '#' %>
+			<%= link_to "Contribute", new_quote_path %>
 			<%= link_to "About", '#' %>
 		</div>
 	</header>
@@ -38,7 +40,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="col-xs-6">
-				<%= link_to "I want more.", "#", :class => "next-quote" %>
+				<%= link_to "I want more.", root_path, :class => "next-quote" %>
 			</div>
 			<div class="col-xs-6 footer-blurb">
 				Wow.  Amazing Splurty app.  <a href="http://www.outfitboston.com" target="_blank">Who's behind it?</a>

@@ -21,6 +21,9 @@ gem 'bootstrap-sass', '~> 3.3.0'
 #Include autoprixer-rails
 gem 'autoprefixer-rails'
 
+# Include simple-form gem
+gem 'simple_form'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
