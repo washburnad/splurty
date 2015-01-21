@@ -31,7 +31,19 @@
 
 	<br class="clear" />
 
-<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div>
 
+	<footer class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "I want more.", "#", :class => "next-quote" %>
+			</div>
+			<div class="col-xs-6 footer-blurb">
+				Wow.  Amazing Splurty app.  <a href="http://www.outfitboston.com" target="_blank">Who's behind it?</a>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
