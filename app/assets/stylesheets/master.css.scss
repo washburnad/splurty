@@ -62,7 +62,7 @@ h2 {
 }
 
 .next-quote {
-    color: #f84342;
+    color: #2ea56c;
     font-family: 'quicksandregular', sans-serif;
     font-size: 20px;
 }
@@ -82,5 +82,34 @@ h2 {
 .about {
     /* Trebuchet-based sans serif stack */
     font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+
+}
+
+.modal {
+    /* Trebuchet-based sans serif stack */
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    
+}
+
+h2 span {
+    color: #dddddd;
+    font-family: 'quicksandregular', sans-serif;
+
+}
+
+a {
+    color: #2ea56c;
+}
+
+::selection {
+    color: #000000;
+    background-color: #2ea56c;
+}
+
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align: left;
+    }
+
 
 }
